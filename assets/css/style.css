@@ -1,0 +1,50 @@
+.displayed 
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
+	
+.header 
+	{
+		padding: 3%;
+	}
+	
+.navbar-default 
+	{
+		background-color: #ffffff;
+		border-color: #ffffff;
+	}
+	.navbar-nav{
+		float:none;
+		text-align:center;
+	}
+	.navbar-nav li{
+		float:none;
+		display:inline-block;
+		text-transform: uppercase;
+	}
+	.body-bg{
+	background-color:#dfdfdf;
+	}
+	.margin {
+    margin-bottom: 45px;
+}
+.logo{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+.pointer{
+	    cursor: pointer;
+}
+	
+	@media only screen and (max-width: 765px) {
+    .navbar-nav li{
+		display:block;
+	}
+	.body-bg img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
+}
