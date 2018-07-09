@@ -1,163 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Amrith</title>
-
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/css/style.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-	</head>
-	<body>
-			
-		<script>
-			var app = angular.module('myApp', []);
-			app.controller('myCtrl', function($scope) {
-			   $scope.client1Logo = "assets/img/logo1.PNG";
-
-			   $scope.changeLogo = function(){
-			   	$scope.client1Logo = "assets/img/logo1_selected.PNG";
-			   }
-			});
-		</script>
-
-		
-		<div class="container">
-		 <div class="header">
-			<img src="assets/img/amrith-name.PNG" class="img-responsive displayed">
-			<nav role="navigation" class="navbar navbar-default">
-
-						<div class="navbar-header">
-
-							<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">						
-
-								<span class="icon-bar"></span>
-
-								<span class="icon-bar"></span>
-
-								<span class="icon-bar"></span>
-
-							</button>
-
-							</div>
-
-						<!-- Collection of nav links and other content for toggling -->
-
-					<div id="navbarCollapse" class="collapse navbar-collapse p0">
-
-							<ul class="nav navbar-nav">
-
-								<li><a href="#">Work</a></li>
-								<li><a href="#">Client</a></li>
-								<li><a href="#">Career Details</a></li>					
-								<li><a href="#">Personal Details</a></li>	
-								<li><a href="#">CV</a></li>					
-								<li><a href="#">Throwback</a></li>									
-
-							</ul>				
-								 
-												  
-						</div>
-					</nav>
-			
-		</div>
-		</div>
-		
-		<div class="body-bg" ng-app="myApp" ng-controller="myCtrl">
-			<div class="container">
-				<div class="col-lg-12 ">
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">						
-						<a href="assets/clients/client1.html" data-toggle="modal" data-target="#myModal" ng-click="changeLogo()">
-							<img ng-src="{{client1Logo}}" class="img-responsive pointer" alt="Image">	
-						</a>			
-						
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo2.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
-					</div>
-				</div>
-				<div class="col-lg-12 ">
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo5.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo1.PNG" class="img-responsive " alt="Image">
-					</div>
-				</div>
-				<div class="col-lg-12 ">
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo1.PNG" class="img-responsive" alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo2.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo5.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo1.PNG" class="img-responsive " alt="Image">
-					</div>
-				</div>
-				<div class="col-lg-12">
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo1.PNG" class="img-responsive" alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo2.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 logo">
-						<img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
-					</div>
-				</div>
-			</div>
-		</div>
-		 <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-       
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Amrith</title>
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+   </head>
+   <body>
+      <script>
+         var app = angular.module('myApp', []);
+         app.controller('myCtrl', function($scope) {
+            $scope.client1Logo = "assets/img/logo1.PNG";
+         
+            $scope.changeLogo = function(){
+            	$scope.client1Logo = "assets/img/logo1_selected.PNG";
+            }
+         });
+      </script>
+      <div class="container">
+         <div class="header">
+            <img src="assets/img/amrith-name.PNG" class="img-responsive displayed">
+            <nav role="navigation" class="navbar navbar-default">
+               <div class="navbar-header">
+                  <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">						
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               </div>
+               <!-- Collection of nav links and other content for toggling -->
+               <div id="navbarCollapse" class="collapse navbar-collapse p0">
+                  <ul class="nav navbar-nav">
+                     <li><a href="#">Work</a></li>
+                     <li><a href="#">Client</a></li>
+                     <li><a href="#">Career Details</a></li>
+                     <li><a href="#">Personal Details</a></li>
+                     <li><a href="#">CV</a></li>
+                     <li><a href="#">Throwback</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
       </div>
-      
-    </div>
-  </div>
-			
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-	</body>
+      <div class="body-bg" ng-app="myApp" ng-controller="myCtrl">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-11 ">
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">						
+                     <a href="assets/clients/client1.html" data-toggle="modal" data-target="#myModal" ng-click="changeLogo()">
+                     <img ng-src="{{client1Logo}}" class="img-responsive pointer" alt="Image">	
+                     </a>			
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo2.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-11 ">
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo5.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo1.PNG" class="img-responsive " alt="Image">
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-11 ">
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo1.PNG" class="img-responsive" alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo2.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-11">
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo5.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo1.PNG" class="img-responsive " alt="Image">
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-1"></div>
+               <div class="col-lg-11">
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo1.PNG" class="img-responsive" alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo2.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo3.PNG" class="img-responsive " alt="Image">
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-12 logo">
+                     <img src="assets/img/logo4.PNG" class="img-responsive " alt="Image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+            </div>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+   </body>
 </html>
