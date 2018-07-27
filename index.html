@@ -13,6 +13,7 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>      
    </head>
    <body ng-app="myApp"> 
+
     <div class="container">
          <div class="header">
             <img src="assets/img/amrith-name.PNG" class="img-responsive displayed">
@@ -29,10 +30,10 @@
                   <ul class="nav navbar-nav">
                      <li><a href="#portfolio">Portfolio</a></li>
                      <li><a href="#clientele">Clientele</a></li>
-                     <li><a href="#">Projects</a></li>
-                     <li><a href="#">Career</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#career">Career</a></li>
                      <li><a href="#">Roles</a></li>
-                     <li><a href="#">Timeline</a></li>
+                     <li><a href="#timeline">Timeline</a></li>
                      <li><a href="#">Throwback</a></li>
 					<li><a href="#">CV Download</a></li>
                      <li><a href="#">Contacts</a></li>                                       
@@ -71,4 +72,16 @@
 
      
    </body>
+
+   <script type="text/javascript">
+   		
+   		  $(".navbar-nav li a").click(function (event) {
+    // check if window is small enough so dropdown is created
+    var toggle = $(".navbar-toggle").is(":visible");
+    if (toggle) {
+      $(".navbar-collapse").collapse('hide');
+    }
+  });
+   		  
+   	</script>
 </html>

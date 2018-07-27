@@ -1,10 +1,10 @@
 var app = angular.module('myApp', ['ngRoute']);
 
 app.config(function($routeProvider) {
-  $routeProvider
+  	$routeProvider
 
   .when('/', {
-    templateUrl : './assets/clients/clientele.html',
+    templateUrl : './assets/portfolio/portfolio.html',
     controller  : 'HomeController'
   })
 
@@ -15,6 +15,21 @@ app.config(function($routeProvider) {
 
   .when('/portfolio', {
     templateUrl : './assets/portfolio/portfolio.html',
+    controller  : 'HomeController'
+  })
+
+  .when('/timeline', {
+    templateUrl : './assets/timeline/timeline.html',
+    controller  : 'HomeController'
+  })
+
+  .when('/projects', {
+    templateUrl : './assets/projects/projects.html',
+    controller  : 'HomeController'
+  })
+
+  .when('/career', {
+    templateUrl : './assets/career/career.html',
     controller  : 'HomeController'
   })
 

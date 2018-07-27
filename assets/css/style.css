@@ -27,6 +27,9 @@
 	.body-bg{
 	background-color:#dfdfdf;
 	}
+		.body-bg-white{
+	background-color:white;
+	}
 	.margin {
     margin-bottom: 45px;
 }
@@ -47,13 +50,19 @@
 		margin-left: auto;
 		margin-right: auto 
 	}
+
+		.body-bg-white img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
 }
 
 
 /*Concept */
 
 #fh5co-project{
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -128,7 +137,7 @@
   #fh5co-project .fh5co-project > a .fh5co-copy {
     position: relative;
     visibility: visible;
-    opacity: 1;
+    opacity: 0;
     bottom: 0;
     color: #000;
     padding: 20px;
@@ -185,3 +194,85 @@
 /*.js .animate-box {
   opacity: 0;
 }*/
+/* Start Timmeline*/
+
+#cf {
+  
+}
+
+.top{
+	margin-left: -7%;
+}
+.bottom{
+	margin-left: -7%;
+}
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+/* Start Projects */
+.grad1 {
+    background: #ccc; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
+background: -o-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
+background: -ms-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
+background: -moz-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
+background: linear-gradient(to right, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
+	margin-top: 9%;
+}
+.grad2 {
+    background: #eee; /* For browsers that do not support gradients */
+    background: radial-gradient(#fff,#e2dede); /* Standard syntax (must be last) */
+}
+.nav-pills>li {
+    float: none;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #000;
+    background-color: transparent;
+}
+a {
+    color: #777;
+    text-decoration: none;
+}
+h4{
+	margin-top: 40px;
+	margin-bottom:0px;
+}
+.tab-content.clearfix {
+    padding: 18px;
+    height: 490px;
+}
+/* change border radius for the tab , apply corners on top*/
+li:last-child {
+    /**margin-bottom: 5%;**/
+}
+
+/* End Project */
+
+
+#career-main {
+  height: 650px;
+}
+
+#career-main p{
+	margin: 0 0-2px
+}
+
+
+#career-desc {
+  
+}
+
+#career-desc p{
+	margin: 0 0 19px
+}
