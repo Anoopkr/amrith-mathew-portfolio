@@ -33,5 +33,10 @@ app.config(function($routeProvider) {
     controller  : 'HomeController'
   })
 
+.when('/roles', {
+    templateUrl : './assets/roles/roles.html',
+    controller  : 'HomeController'
+  })
+
   .otherwise({redirectTo: '/'});
 });

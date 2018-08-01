@@ -39,6 +39,7 @@
 }
 .pointer{
 	    cursor: pointer;
+	    margin-bottom: 7%;
 }
 	
 	@media only screen and (max-width: 765px) {
@@ -264,15 +265,51 @@ li:last-child {
   height: 650px;
 }
 
+#roles-main{
+	height: 650px;	
+}
+
 #career-main p{
-	margin: 0 0-2px
+	margin: 0 0 -2px
+}
+
+#roles-main p{
+	margin: 0 0 -2px
 }
 
 
 #career-desc {
-  
+  overflow-y: auto;
 }
 
 #career-desc p{
 	margin: 0 0 19px
+}
+
+/* Footer */
+.py-3 {
+    padding-bottom: 2rem!important;
+    padding-top: 2rem!important;
+}
+
+#career-main-sm p{
+	margin: 0 0 0px;
+}
+
+.grad2 ul li h4{
+	margin-top: 40px;
+    margin-bottom:0px;
+}
+
+#roles-main h4{
+	margin-top: 88px;
+}
+
+.tab-content.clearfix {
+    padding: 18px;
+    height: 490px;
+    display: flex;
+}
+.tab-content > .active {
+    margin: auto;
 }
