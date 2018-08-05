@@ -8,6 +8,7 @@
 .header 
 	{
 		padding: 3%;
+		padding-bottom: 0px;
 	}
 	
 .navbar-default 
@@ -23,6 +24,7 @@
 		float:none;
 		display:inline-block;
 		text-transform: uppercase;
+		margin: 0 13px;
 	}
 	.body-bg{
 	background-color:#dfdfdf;
