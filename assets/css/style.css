@@ -315,3 +315,17 @@ li:last-child {
 .tab-content > .active {
     margin: auto;
 }
+#portfolio-overflow{
+	 /*overflow-y: auto;
+	 height:360px;*/
+	 margin-top:4%;
+}
+.p0{
+	padding:0;
+}
+.portfolio_img {
+    margin-bottom: 5%;
+}
+#portfolio-modal{
+	width:80%;
+}
