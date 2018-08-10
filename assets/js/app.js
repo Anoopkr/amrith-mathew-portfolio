@@ -37,6 +37,13 @@ app.config(function($routeProvider) {
     templateUrl : './assets/roles/roles.html',
     controller  : 'HomeController'
   })
-
+.when('/contact', {
+    templateUrl : './assets/contact/contact.html',
+    controller  : 'HomeController'
+  })
+.when('/cv', {
+    templateUrl : './assets/contact/contact.html',
+    controller  : 'HomeController'
+  })
   .otherwise({redirectTo: '/'});
 });
