@@ -29,15 +29,15 @@
                <!-- Collection of nav links and other content for toggling -->
                <div id="navbarCollapse" class="collapse navbar-collapse p0">
                   <ul class="nav navbar-nav">
-                     <li><a href="#portfolio">Portfolio</a></li>
-                     <li><a href="#clientele">Clientele</a></li>
-                     <li><a href="#projects">Projects</a></li>
-                     <li><a href="#career">Career</a></li>
-                     <li><a href="#roles">Roles</a></li>
-                     <li><a href="#timeline">Timeline</a></li>
-                     <li><a href="#">Throwback</a></li>
-					<li><a href="#cv">CV Download</a></li>
-                     <li><a href="#contact">Contacts</a></li>                                       
+                     <li ng-class="{'active': currentNav===navItems[0]}"><a href="#portfolio">Portfolio</a></li>
+                     <li ng-class="{'active': currentNav===navItems[1]}"><a href="#clientele">Clientele</a></li>
+                     <li ng-class="{'active': currentNav===navItems[2]}"><a href="#projects">Projects</a></li>
+                     <li ng-class="{'active': currentNav===navItems[3]}"><a href="#career">Career</a></li>
+                     <li ng-class="{'active': currentNav===navItems[4]}"><a href="#roles">Roles</a></li>
+                     <li ng-class="{'active': currentNav===navItems[5]}"><a href="#timeline">Timeline</a></li>
+                     <li ng-class="{'active': currentNav===navItems[6]}"><a href="#throwback">Throwback</a></li>
+					<li ng-class="{'active': currentNav===navItems[7]}"><a href="#cv">CV Download</a></li>
+                     <li ng-class="{'active': currentNav===navItems[8]}"><a href="#contact">Contacts</a></li>                                       
                   </ul>
                </div>
             </nav>
