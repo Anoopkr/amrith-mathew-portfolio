@@ -24,7 +24,7 @@
 		float:none;
 		display:inline-block;
 		text-transform: uppercase;
-		margin: 0 13px;
+		margin: 0 12px;
 	}
 	.body-bg{
 	background-color:#dfdfdf;
@@ -65,7 +65,6 @@
 /*Concept */
 
 #fh5co-project{
-  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -332,4 +331,32 @@ li:last-child {
 
 .contact-main{
 
+}
+
+@font-face {
+font-family: Krugmann;
+src: url(../fonts/KrugmannBrush.ttf);
+}
+.main-header {
+font-family: Krugmann;
+font-size: 47px;
+}
+.nav-margin{
+	margin-top: -1%;
+    /*margin-bottom: -5%;*/
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}
+.sub-header{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #777;
+    margin-top: 0%;
+}
+.dim-text{
+	color: #777;
 }
