@@ -267,6 +267,7 @@ li:last-child {
 }
 
 #roles-main{
+	background-image: url("../img/bulb2.png");
 	height: 650px;	
 }
 
@@ -359,4 +360,36 @@ font-size: 47px;
 }
 .dim-text{
 	color: #777;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color:  transparent !important;
+}
+
+/* Contact Style Start*/
+
+
+
+#contact-main{
+	background-image: url("../img/background.png");
+	height: 650px;	
+	margin-top: 2%;
+}
+
+#contact-main p{
+	margin: 0 0 -2px
+}
+
+
+
+#contact-desc {
+  overflow-y: auto;
+}
+
+#contact-desc p{
+	margin: 0 0 19px
+}
+
+#contact-main-sm p{
+	margin: 0 0 0px;
 }
