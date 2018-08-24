@@ -229,11 +229,13 @@ background: -o-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 2
 background: -ms-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
 background: -moz-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
 background: linear-gradient(to right, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-	margin-top: 9%;
+	margin-top: 7%;
+	    overflow-y: auto;
 }
 .grad2 {
     background: #eee; /* For browsers that do not support gradients */
     background: radial-gradient(#fff,#e2dede); /* Standard syntax (must be last) */
+    height: 650px;
 }
 .nav-pills>li {
     float: none;
@@ -263,21 +265,26 @@ li:last-child {
 
 
 #career-main {
-  height: 650px;
+  	height: 650px;
+	margin-top: 2%;
 }
 
 #roles-main{
 	background-image: url("../img/bulb2.png");
-	height: 650px;	
 }
+#roles-main h4{
+	margin-top: 88px;
+}
+
 
 #career-main p{
 	margin: 0 0 -2px
 }
 
-#roles-main p{
+/*#roles-main p{
 	margin: 0 0 -2px
-}
+	margin-top: 2%;
+}*/
 
 
 #career-desc {
@@ -303,9 +310,6 @@ li:last-child {
     margin-bottom:0px;
 }
 
-#roles-main h4{
-	margin-top: 88px;
-}
 
 .tab-content.clearfix {
     padding: 18px;
@@ -330,9 +334,6 @@ li:last-child {
 	width:80%;
 }
 
-.contact-main{
-
-}
 
 @font-face {
 font-family: Krugmann;
@@ -370,24 +371,9 @@ font-size: 47px;
 
 
 
-#contact-main{
-	background-image: url("../img/background.png");
-	height: 650px;	
-	margin-top: 2%;
-}
 
 #contact-main p{
-	margin: 0 0 -2px
-}
-
-
-
-#contact-desc {
-  overflow-y: auto;
-}
-
-#contact-desc p{
-	margin: 0 0 19px
+	margin: 0 0 17% -70%;
 }
 
 #contact-main-sm p{
