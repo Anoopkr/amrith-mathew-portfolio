@@ -9,6 +9,7 @@
 	{
 		padding: 3%;
 		padding-bottom: 0px;
+		margin-top: -3%;
 	}
 	
 .navbar-default 
@@ -120,6 +121,9 @@
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
 }
 #fh5co-project .fh5co-project > a .fh5co-copy h3 {
   margin: 0 0 5px 0;
@@ -203,10 +207,10 @@
 }
 
 .top{
-	margin-left: -7%;
+	/*margin-left: -7%;*/
 }
 .bottom{
-	margin-left: -7%;
+	/*margin-left: -7%;*/
 }
 #cf img {
   position:absolute;
@@ -214,7 +218,7 @@
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 #cf img.top:hover {
@@ -339,6 +343,10 @@ li:last-child {
 font-family: Krugmann;
 src: url(../fonts/KrugmannBrush.ttf);
 }
+@font-face {
+font-family: DIN-Regular;
+src: url(../fonts/DIN-Regular.ttf);
+}
 .main-header {
 font-family: Krugmann;
 font-size: 47px;
@@ -353,12 +361,36 @@ font-size: 47px;
     color: black;
     background-color: white;
 }
-.sub-header{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    color: #777;
-    margin-top: 0%;
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
 }
+.fancy span {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    color: #a9a0a0;
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #a9a0a0;
+  top: -2px;
+  width: 40px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 5px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 5px;
+}
+
 .dim-text{
 	color: #777;
 }
@@ -377,5 +409,19 @@ font-size: 47px;
 }
 
 #contact-main-sm p{
+	margin: 0 0 0px;
+}
+
+
+/*.modal-content{
+	background-color: transparent;
+}*/
+
+
+#careerMain{
+
+}
+
+#careerMain ul>li>a>p {
 	margin: 0 0 0px;
 }
