@@ -124,6 +124,7 @@
   text-align: center;
     vertical-align: middle;
     line-height: 70px;
+    margin-bottom: 10%;
 }
 #fh5co-project .fh5co-project > a .fh5co-copy h3 {
   margin: 0 0 5px 0;
@@ -133,11 +134,14 @@
   font-weight: 400;
 }
 #fh5co-project .fh5co-project > a .fh5co-copy p {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   font-size: 14px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-family: DIN-Regular;
 }
 #fh5co-project .fh5co-project > a .fh5co-copy p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-project .fh5co-project > a .fh5co-copy {
@@ -312,6 +316,7 @@ li:last-child {
 .grad2 ul li h4{
 	margin-top: 40px;
     margin-bottom:0px;
+    width: 506px;
 }
 
 
@@ -344,12 +349,34 @@ font-family: Krugmann;
 src: url(../fonts/KrugmannBrush.ttf);
 }
 @font-face {
+font-family: DIN-LightAlternate;
+src: url(../fonts/DIN-LightAlternate.ttf);
+}
+@font-face {
 font-family: DIN-Regular;
 src: url(../fonts/DIN-Regular.ttf);
+}
+@font-face {
+font-family: DIN-Bold;
+src: url(../fonts/DIN-Bold.ttf);
+}
+@font-face {
+font-family: DIN-Light;
+src: url(../fonts/DIN-Light.ttf);
 }
 .main-header {
 font-family: Krugmann;
 font-size: 47px;
+}
+#projectDesc, #careerDesc, #rolesDesc{
+	font-family: DIN-Regular;
+}
+
+#resumeDownload{
+	font-family: DIN-Bold;	
+}
+#contact-main, #contactMainMobile{
+	font-family: DIN-Light;	
 }
 .nav-margin{
 	margin-top: -1%;
@@ -365,9 +392,10 @@ font-size: 47px;
 .fancy {
   line-height: 0.5;
   text-align: center;
+margin: -8px 2px 34px 0px;
 }
 .fancy span {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: DIN-Regular;
     font-size: 10px;
     color: #a9a0a0;
   display: inline-block;
@@ -380,7 +408,7 @@ font-size: 47px;
   height: 5px;
   border-bottom: 1px solid #a9a0a0;
   top: -2px;
-  width: 40px;
+  width: 61px;
 }
 .fancy span:before {
   right: 100%;
@@ -423,5 +451,41 @@ font-size: 47px;
 }
 
 #careerMain ul>li>a>p {
+	font-family: DIN-LightAlternate;
+    font-size: 17px;
 	margin: 0 0 0px;
+}
+
+#careerMainMobile p {
+	font-family: DIN-LightAlternate;
+    font-size: 17px;
+	margin: 0 0 0px;
+}
+
+#projectsMain ul>li>a>p {
+	font-family: DIN-LightAlternate;
+    font-size: 15px;
+    width: 500px;
+}
+
+#projectsMainMobile p {
+	font-family: DIN-LightAlternate;
+    font-size: 15px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 7px 15px;
+}
+
+@media (min-width: 768px)
+.modal-content {
+	box-shadow : none !important;
+}
+
+.modal-content {
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0;
 }
