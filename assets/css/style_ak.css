@@ -9,7 +9,7 @@
 	{
 		padding: 3%;
 		padding-bottom: 0px;
-		margin-top: -2%;
+		margin-top: -3%;
 	}
 	
 .navbar-default 
@@ -27,11 +27,8 @@
 		text-transform: uppercase;
 		margin: 0 12px;
 	}
-
 	.body-bg{
 	background-color:#dfdfdf;
-/*width: 76.5%;
-    margin-left: 12.2%;*/
 	}
 		.body-bg-white{
 	background-color:white;
@@ -221,8 +218,7 @@
 }
 #cf img {
   position:absolute;
-  left: 14px;
-    width: 98%;
+  left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -235,50 +231,28 @@
 
 /* Start Projects */
 .grad1 {
-    background: #403e3e; /* For browsers that do not support gradients */
-   /*background: -webkit-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
+    background: #ccc; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
 background: -o-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
 background: -ms-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
 background: -moz-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
 background: linear-gradient(to right, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-	*/
 	margin-top: 7%;
 	    overflow-y: auto;
 }
-
-.grad3 {
-  background: -webkit-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-background: -o-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-background: -ms-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-background: -moz-linear-gradient(left, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-background: linear-gradient(to right, rgb(186, 177, 156) 0%, rgb(250, 249, 247) 29%, rgb(250, 249, 247) 76%, rgb(186, 177, 156) 100%);
-	
-	margin-top: 7%;
-	    overflow-y: auto;
-}
-
-
 .grad2 {
-    background: #eee; /* For browsers that do not support gradients */
-    background: radial-gradient(#fff,#e2dede); /* Standard syntax (must be last) */
+   /* background: #eee;  
+    background: radial-gradient(#fff,#e2dede);*/
+	background:black;
     height: 650px;
 }
-
-.grad4 {
-    background: #eee; /* For browsers that do not support gradients */
-    background: radial-gradient(#fff,#e2dede); /* Standard syntax (must be last) */
-    height: 650px;
-}
-
 .nav-pills>li {
     float: none;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    /*color: #000;*/
-    color: yellow;
+    color: #000;
     background-color: transparent;
 }
-
 a {
     color: #777;
     text-decoration: none;
@@ -286,7 +260,6 @@ a {
 h4{
 	margin-top: 40px;
 	margin-bottom:0px;
-	font-family: "DIN-Bold";
 }
 .tab-content.clearfix {
     padding: 18px;
@@ -306,7 +279,7 @@ li:last-child {
 }
 
 #roles-main{
-	/*background-image: url("../img/bulb2.png");*/
+	background-image: url("../img/bulb2.png");
 }
 #roles-main h4{
 	margin-top: 88px;
@@ -343,12 +316,6 @@ li:last-child {
 
 .grad2 ul li h4{
 	margin-top: 40px;
-    margin-bottom:0px;
-    width: 506px;
-}
-
-.grad4 ul li h4{
-  margin-top: 40px;
     margin-bottom:0px;
     width: 506px;
 }
@@ -410,10 +377,10 @@ font-size: 47px;
 	font-family: DIN-Bold;	
 }
 #contact-main, #contactMainMobile{
-	font-family: DIN-Bold;	
+	font-family: DIN-Light;	
 }
 .nav-margin{
-	margin-top: -4%;
+	margin-top: -1%;
     /*margin-bottom: -5%;*/
 }
 
@@ -426,7 +393,7 @@ font-size: 47px;
 .fancy {
   line-height: 0.5;
   text-align: center;
-margin: -8px 2px 70px 0px;
+margin: -8px 2px 34px 0px;
 }
 .fancy span {
 	font-family: DIN-Regular;
@@ -440,7 +407,7 @@ margin: -8px 2px 70px 0px;
   content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 1.2px solid #a9a0a0;
+  border-bottom: 1px solid #a9a0a0;
   top: -2px;
   width: 61px;
 }
@@ -464,8 +431,10 @@ margin: -8px 2px 70px 0px;
 /* Contact Style Start*/
 
 
+
+
 #contact-main p{
-	margin: 0 0 11% -13%;
+	margin: 0 0 17% -70%;
 }
 
 #contact-main-sm p{
@@ -508,14 +477,7 @@ margin: -8px 2px 70px 0px;
 .nav>li>a {
     position: relative;
     display: block;
-    /*padding: 42px 14px 7px 22px;*/
-    padding: 23px 14px 0 22px;
-}
-
-.nav[role=roles]>li>a {
-    position: relative;
-    display: block;
-    padding: 42px 14px 7px 22px;
+    padding: 7px 15px;
 }
 
 @media (min-width: 768px)
@@ -528,15 +490,8 @@ margin: -8px 2px 70px 0px;
 	box-shadow: none !important;
 	border-radius: 0;
 }
-
-.navbar-default .navbar-nav>li>a {
-    color: #beb3b3;
-}
-.container {
-    padding-right: 0px;
-    padding-left: 11px;
-}
-
+ /*10/8/16*/
+ 
  .grad1 ul{
 height:490px;
 }
@@ -547,67 +502,5 @@ height:490px;
     background: -webkit-linear-gradient(yellow, orange, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 42px;
-}
-
-.tab-pane[role=portfolio] p {
-   	background: black;
-   	-webkit-background-clip: text;
-   	-webkit-text-fill-color: transparent;
-    font-size: 14px;
-}
-
-.tab-pane[role=contact] p {
-    font-size: 28px;
-}
-
-.grad2{
-	background: black;
-    overflow-y: auto;
-}
-
-.grad4{
-  background: black;
-    overflow-y: auto;
-}
-
-#projects-index ul>li>a>p {
-    font-family: DIN-Light;
-    color:white;
-    font-size: 17px;
-}
-#projects-index ul>li>a>h4 {
-    font-family: DIN-Bold;
-}
-
-#careerMain ul>li>a>p {
-    font-family: DIN-Light;
-    color:white;
-}
-#careerMain ul>li>a>h4 {
-    font-family: DIN-Bold;
-}
-
-.h3, h3 {
-    font-size: 21px;
-}
-
-#contact-main a:hover{ 
-     background: -webkit-linear-gradient(orange, green, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 28px;
-}
-
-.navbar {
-    min-height: 17px;
-}
-
-.timeline-main{
-  margin-top: -4%;
-    margin-left: 27%;
-      -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
+    font-size: 27px;
 }

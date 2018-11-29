@@ -40,7 +40,7 @@ app.config(function($routeProvider) {
 
   .when('/timeline', {
     templateUrl : './assets/timeline/timeline.html',
-    controller  : 'HomeController'
+    controller  : 'TimelineController'
   })
 
   .when('/projects', {

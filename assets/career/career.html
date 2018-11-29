@@ -1,7 +1,42 @@
 <div id="exTab1" class="container">
-   <div class="col-sm-4 grad1 hidden-xs hidden-sm">
+
+ <div id="careerMain" class="col-sm-4 grad1 hidden-xs hidden-sm">
+      <ul  class="nav nav-pills">         
+         <li>
+            <a href="" ng-click="scrollToCareer('a1')" data-toggle="tab" class="active-color">
+               <h3><b>HEAD OF CREATIVE/COPYWRITER</b></h3>
+               <p>Dana Public Relations, Qatar</p>
+               <p>Oct'05 till date</p>
+            </a>
+         </li>
+         <li>
+            <a href="" ng-click="scrollToCareer('a2')" data-toggle="tab" class="active-color">
+               <h3><b>COPYWRITER</b></h3>
+               <p>Dana Public Relations, Qatar</p>
+               <p>Oct'00 - Sept'05</p>
+            </a>
+         </li>
+         <li>
+            <a href="" ng-click="scrollToCareer('a3')" data-toggle="tab" class="active-color">
+               <h3><b>COPYWRITER</b></h3>
+               <p>Nova Advertising, Baharain</p>
+               <p>June'97 - Sept'00</p>
+            </a>
+         </li>
+         <li>
+            <a href="" ng-click="scrollToCareer('a4')" data-toggle="tab" class="active-color">
+               <h3><b>JR. COPYWRITER</b></h3>
+               <p>DCD Advertising, India</p>
+               <p>Aug'96 - May'97</p>
+            </a>
+         </li>
+      </ul>
+   </div>
+
+
+   <div id="projectsMain" class="col-sm-8 grad2 hidden-xs hidden-sm" onscroll="myFunction()">
       <div id="careerDesc" class="tab-content clearfix">
-         <div class="tab-pane" id="1a" ng-class="{'active': projects.a1}">
+         <div class="tab-pane" id="xa" ng-class="{'active': career.xa}">
             <p>20+ years of advertising, communication and marketing experience in the Qatari
                (18), Bahraini (3) and Indian (1) markets
             </p>
@@ -17,7 +52,7 @@
                and finalisers in Arabic and English
             </p>
          </div>
-         <div class="tab-pane" id="2a" ng-class="{'active': projects.a2}">
+         <div class="tab-pane" id="2a" ng-class="{'active': career.a2 || career.a1}">
             <p> Major brands presently working on include:
                Qatar Development Bank, Ahlibank, Masraf Al Rayan,
                Milaha, Qatar Petroleum, Mwani Qatar, QAFCO, AAB
@@ -36,7 +71,7 @@
                have written, edited and proofread annual reports, magazines and a wide range of BTL literature</b>
             </p>
          </div>
-         <div class="tab-pane" id="3a" ng-class="{'active': projects.a3}">
+         <div class="tab-pane" id="3a" ng-class="{'active': career.a3}">
             <p><b>Major accounts worked on include:</b>
                Bank of Bahrain &amp; Kuwait, Bahrain Development Bank,
                Bahrain International Bank, Bahrain Credit, Awal Gulf
@@ -45,50 +80,13 @@
                Woolworths &amp; Truworths
             </p>
          </div>
-         <div class="tab-pane" id="4a" ng-class="{'active': projects.a4}">
+         <div class="tab-pane" id="4a" ng-class="{'active': career.a4}">
             <p><b>Major categories worked on include:</b>
                Hospitality, Tourism and Industrial Development
             </p>
          </div>
       </div>
    </div>
-   <div id="careerMain" class="col-sm-8 grad2 hidden-xs hidden-sm">
-      <ul  class="nav nav-pills">
-         <li>
-            <a>
-            </a>
-         </li>
-         <li class="active">
-            <a href="" ng-click="scrollTo('a1')" data-toggle="tab" class="active-color">
-               <h4><b>HEAD OF CREATIVE/COPYWRITER</b></h4>
-               <p>Dana Public Relations, Qatar</p>
-               <p>Oct'05 till date</p>
-            </a>
-         </li>
-         <li>
-            <a href="" ng-click="scrollTo('a2')" data-toggle="tab" class="active-color">
-               <h4><b>COPYWRITER</b></h4>
-               <p>Dana Public Relations, Qatar</p>
-               <p>Oct'00 - Sept'05</p>
-            </a>
-         </li>
-         <li>
-            <a href="" ng-click="scrollTo('a3')" data-toggle="tab" class="active-color">
-               <h4><b>COPYWRITER</b></h4>
-               <p>Nova Advertising, Baharain</p>
-               <p>June'97 - Sept'00</p>
-            </a>
-         </li>
-         <li>
-            <a href="" ng-click="scrollTo('a4')" data-toggle="tab" class="active-color">
-               <h4><b>JR. COPYWRITER</b></h4>
-               <p>DCD Advertising, India</p>
-               <p>Aug'96 - May'97</p>
-            </a>
-         </li>
-      </ul>
-   </div>
-
 
 
       <div id="careerMainMobile" class="col-sm-12 col-xs-12 hidden-md hidden-lg grad2">

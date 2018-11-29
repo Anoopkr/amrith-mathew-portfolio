@@ -1,11 +1,10 @@
-      <div class="body-bg-white">
+    <div class="body-bg-white">
          <div class="container">
           
-           
-            <div class="row">
+           <!-- 
+           <div class="row">
                <div class="col-lg-1"></div>
                <div class="col-lg-12">
-           <!--       <img ng-src={{pen}} class="img-responsive " alt="Image">  -->
 
            <div id="cf">
      <img class="img-responsive bottom" src="assets/images/timeline/pen.png" />
@@ -14,9 +13,36 @@
 
 
                </div>
-            </div>
+            </div> -->
+
+          <img class="timeline-main" id="imgHolder" /> 
+
          </div>
       </div>
 
 
 
+<!-- <script type="text/javascript">
+      var aImages  =  [ "http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/108.gif",
+                        "http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/106.gif",
+                        "http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/102.gif",
+                        "http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/101.gif",
+                        "http://l.yimg.com/us.yimg.com/i/mesg/emoticons7/103.gif"];
+      var oImage   =  null;
+      var iIdx     =  0;
+      function play(){
+        console.log('Test');
+        try{
+          //look only once in DOM and cache it
+          if(oImage===null){
+            oImage  =  window.document.getElementById("imgHolder");
+          }
+          oImage.src  =  aImages[(++iIdx)%(aImages.length)];
+          setTimeout('play()',5000);
+        }catch(oEx){
+          //some error handling here
+        }
+      }    
+    </script>
+
+ -->

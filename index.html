@@ -13,7 +13,7 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>      
       <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
    </head>
-   <body ng-app="myApp"> 
+   <body ng-app="myApp" > 
 
     <div class="fluid-container">
          <div class="header">
@@ -82,9 +82,10 @@
 	<!-- Main -->
 	<script src="assets/lib/main.js"></script>
    
-<script src="assets/lib/modernizr-2.6.2.min.js"></script>
-      <script src="assets/js/app.js"></script>
-      <script src="assets/js/controller.js"></script>
+  <script src="assets/lib/modernizr-2.6.2.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/controller.js"></script>
+  <script src="assets/js/timelinecontroller.js"></script>
 
    </body>
 
@@ -97,6 +98,68 @@
       $(".navbar-collapse").collapse('hide');
     }
   });
-   		  
+   		 
+
+   var scroll = 0;
+  $(document).on('mousewheel DOMMouseScroll', function() {
+      scroll++;
+  });
+
+function scrollUp(){
+  console.log("hjvhjbv")
+    var myDiv = document.getElementById('projectDesc');
+    myDiv.scrollTop = 0;
+  }
+
+
+function myFunction() {
+  console.log("dfdfd");
+  
+  if(scroll % 2 != 0){
+    $(".tab-pane p").css({"background": "-webkit-linear-gradient(orange, red, yellow)", "-webkit-background-clip": "text"});
+  } else {
+    $(".tab-pane p").css({"background": "-webkit-linear-gradient(yellow, orange, red)", "-webkit-background-clip": "text"});
+  }
+  
+
+}
+
+/*
+      var aImages  =  [ "assets/images/timeline/PEN-01.png",
+                        "assets/images/timeline/PEN-01.png",
+                        "assets/images/timeline/PEN-02.png",
+                        "assets/images/timeline/PEN-03.png",
+                        "assets/images/timeline/PEN-04.png",
+                        "assets/images/timeline/PEN-05.png",
+                        "assets/images/timeline/PEN-06.png",
+                        "assets/images/timeline/PEN-07.png",
+                        "assets/images/timeline/PEN-08.png",
+                        "assets/images/timeline/PEN-09.png",
+                        "assets/images/timeline/PEN-10.png",
+                        "assets/images/timeline/PEN-11.png",
+                        "assets/images/timeline/PEN-12.png"
+                        ];
+      var oImage   =  null;
+      var iIdx     =  0;
+      function play(){
+        console.log('Test');
+        try{
+          //look only once in DOM and cache it
+          if(oImage===null){
+            oImage  =  window.document.getElementById("imgHolder");
+          }
+          oImage.src  =  aImages[(++iIdx)%(aImages.length)];
+          console.log(iIdx);
+          if(iIdx < 12){
+            setTimeout('play()',1000);  
+          }
+          
+        }catch(oEx){
+          console.log(oEx);
+          //some error handling here
+        }
+      }*/    
+
+
    	</script>
 </html>

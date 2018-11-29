@@ -1,82 +1,88 @@
+
+
 <div id="exTab1" class="container">
 		
-		<div class="col-sm-4 grad1 hidden-xs hidden-sm">
-			<div id="projectDesc" class="tab-content clearfix">
-				<div class="tab-pane" id="1a" ng-class="{'active': projects.a1}">
-					<h4><b>STARTUP WEEKEND DOHA</b></h4>
-					<p>A worldwide annual event, powered by The Kauffman Foundation, the largest foundation for entrepreneurship in the world</p>
-					<p><b>Key Objective:</b> <span class="dim-text">To provide young and aspiring entrepreneurs with a platform to test the feasibility of their startup ideas. Participants form teams by making a 60-second pitch to co-participants, experts mentor the teams over the weekend and at the end of the weekend the teams make a presentation to the jury.</span></p>
-					<p><b>Key Role:</b> <span class="dim-text"> Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels including branding the venue; developed the literature for all the communication collaterals and played a proactive role in identifying the right media mix</span></p>
-				</div>
-				<div class="tab-pane" id="2a" ng-class="{'active': projects.a2}">
-					<h4><b>AL RABEH SAVINGS ACCOUNT</b></h4>
-					<p>The flagship product of Ahlibank</p>
-					<p><b>Key Objective:</b> <span class="dim-text"> To inspire present and prospective customers to save (more) with Ahlibank as a modest saving of just QR 500 could become a life changing moment, as they stand a chance to become a millionaire as well as win other significant cash prizes.</span></p>
-					<p><b>Key Role:</b>  <span class="dim-text">Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels; developed the literature for all the communication collaterals and played a proactive role in identifying the right media mix.</span></p>
-				</div>
-				<div class="tab-pane" id="3a" ng-class="{'active': projects.a3}">
-					<h4><b>REBRANDING OF QATAR INTERNATIONAL ISLAMIC BANK AS INTERNATIONAL ISLAMIC </b></h4>
-					<p></p>
-					<p><b>Key Objective:</b> <span class="dim-text">To re-position International Islamic as a thoroughbred customer-centric bank with an international reach; reinforce customer confidence in the Islamic banking offerings of the bank; and develop the entire spectrum of visual and verbal identity elements that reflect the new positioning.</span></p>
-					<p><b>Key Role:</b>  <span class="dim-text">Conceived the core brand philosophy – ‘joining hands with you’ and developed the key brand attributes; led the creative team that developed the brandmark and the brand identity manual that covered the entire spectrum of brand identity elements from brandmark guidelines, colour palettes and typography to ATL and BTL templates, ATM and branch branding, vehicle livery and internal and external communication materials; developed all the required brand literature; conceived and implemented the launch of the new brand identity.</span></p>
-				</div>
-				<div class="tab-pane" id="4a" ng-class="{'active': projects.a4}">
-					<h4><b>QAHS MENTAL HEALTH AWARENESS CAMPAIGN</b></h4>
-					<p>A CSR initiative of Qatar Academic Health System (QAHS) in association with Hamad Medical Corporation (HMC)</p>
-					<p><b>Key Objective:</b> <span class="dim-text">Address the stereotypes, taboos and myths attached with mental health by conducting a competition on ‘raising awareness on mental health issues’ among the university students of Qatar. Each college had to present a communication strategy on a mental health topic they chose. The top three presentations were then chosen to be part of a public exhibition and the students were publicly felicitated too.</span></p>
-					<p><b>Key Role:</b>  <span class="dim-text">Was part of the two-member agency team that visited the students at their campuses, discussed their ideas with them, brainstormed the communication plans, assisted them in formulating the right communication strategies and then developed their final presentations.</span></p>
-				</div>
-				<div class="tab-pane" id="5a" ng-class="{'active': projects.a5}">
-					<h4><b>AL FIKRA</b></h4>
-					<p>Qatar National Business Plan Competition - Organised by QDB</p>
-					<p><b>Key Objective:</b> <span class="dim-text">To provide aspiring entrepreneurs with a platform to showcase their ideas and an eco system to transform their ideas into business plans. The program included workshops and mentoring sessions over a 3-month period, at the end of which a jury evaluated the business plans and the best three plans were awarded with QDB-sponsored financial and non-financial incentives to make their business plans a reality.</span></p>
-					<p><b>Key Role:</b> <span class="dim-text">Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels including branding the venue; developed the literature for all the communication collaterals and played a proactive role in identifying the right media mix.</span></p>
-				</div>
-				<div class="tab-pane" id="6a" ng-class="{'active': projects.a6}">
-					<h4><b>LAUNCH OF QIB MOBILE BANKING APP</b></h4>
-					<p></p>
-					<p><b>Key Objective:</b> <span class="dim-text">Communicate the fact that QIB is launching its new mobile banking app which will enable customers to conduct all their banking transactions from their smart phone any time from anywhere. Most of the banks had already launched their mobile app, hence the creatives had to cut through all the clutter by being engaging, innovative and relevant.</span></p>
-					<p><b>Key Role:</b> <span class="dim-text">Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels including press ads, magazine ads, digital/social media (home page banners, FB, Twitter, Instagram), posters and billboards (streets, branches, malls); developed the literature for all the communication collaterals,</span></p>
-				</div>
-			</div>
-		</div>
-		<div id="projectsMain" class="col-sm-8 grad2 hidden-xs hidden-sm">	
+		<div id="projects-index" class="col-sm-4 grad1 hidden-xs hidden-sm">
 			<ul  class="nav nav-pills">
 				<li class="active">
 					<a href="" ng-click="scrollTo('a1')" data-toggle="tab" class="active-color">
-						<h4><b>STARTUP WEEKEND DOHA</b></h4>
+						<h3><b>STARTUP WEEKEND DOHA</b></h3>
 						<p>A worldwide annual event, powered by The Kauffman Foundation, the largest foundation for entrepreneurship in the world</p>
 					</a>
 				</li>
 				<li>
-					<a href="" ng-click="scrollTo('a2')" data-toggle="tab" class="active-color">
-						<h4><b>AL RABEH SAVINGS ACCOUNT</b></h4>
+					<a href="" ng-click="scrollTo('a2')" data-toggle="tab" class="active-color" onClick="scrollUp()">
+						<h3><b>AL RABEH SAVINGS ACCOUNT</b></h3>
 						<p>The flagship product of Ahlibank</p>
 					</a>
 				</li>
 				<li>
-					<a href="" ng-click="scrollTo('a3')" data-toggle="tab" class="active-color">
-						<h4><b>REBRANDING OF QATAR INTERNATIONAL ISLAMIC BANK AS INTERNATIONAL ISLAMIC </b></h4>
+					<a href="" ng-click="scrollTo('a3')" data-toggle="tab" class="active-color" onClick="scrollUp()">
+						<h3><b>REBRANDING OF QATAR INTERNATIONAL ISLAMIC BANK AS INTERNATIONAL ISLAMIC </b></h3>
 					</a>
 				</li>
 				<li>
 					<a href="" ng-click="scrollTo('a4')" data-toggle="tab" class="active-color">
-						<h4><b>QAHS MENTAL HEALTH AWARENESS CAMPAIGN</b></h4>
+						<h3><b>QAHS MENTAL HEALTH AWARENESS CAMPAIGN</b></h3>
 						<p>A CSR initiative of Qatar Academic Health System (QAHS) in association with Hamad Medical Corporation (HMC)</p>
 					</a>
 				</li>
 				<li>
 					<a href="" ng-click="scrollTo('a5')" data-toggle="tab" class="active-color">
-						<h4><b>AL FIKRA</b></h4>
+						<h3><b>AL FIKRA</b></h3>
 						<p>Qatar National Business Plan Competition - Organised by QDB</p>
 					</a>
 				</li>
 				<li>
 					<a href="" ng-click="scrollTo('a6')" data-toggle="tab" class="active-color">
-						<h4><b>LAUNCH OF QIB MOBILE BANKING APP</b></h4>
+						<h3><b>LAUNCH OF QIB MOBILE BANKING APP</b></h3>
 					</a>
 				</li>
 			</ul>
+			
+		</div>
+
+		
+		<div id="projectsMain" class="col-sm-8 grad2 hidden-xs hidden-sm"  onscroll="myFunction()">	
+			
+			<div id="projectDesc" class="tab-content clearfix">
+				<div class="tab-pane" id="1a" ng-class="{'active': projects.a1}">
+					<!--<h4><b>STARTUP WEEKEND DOHA</b></h4>-->
+					<p>A worldwide annual event, powered by The Kauffman Foundation, the largest foundation for entrepreneurship in the world</p>
+					<p><b>Key Objective:</b> <span class="dim-text">To provide young and aspiring entrepreneurs with a platform to test the feasibility of their startup ideas. Participants form teams by making a 60-second pitch to co-participants, experts mentor the teams over the weekend and at the end of the weekend the teams make a presentation to the jury.</span></p>
+					<p><b>Key Role:</b> <span class="dim-text"> Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels including branding the venue; developed the literature for all the communication collaterals and played a proactive role in identifying the right media mix</span></p>
+				</div>
+				<div class="tab-pane" id="2a" ng-class="{'active': projects.a2}">
+					<!--<h4><b>AL RABEH SAVINGS ACCOUNT</b></h4>-->
+					<p>The flagship product of Ahlibank</p>
+					<p><b>Key Objective:</b> <span class="dim-text"> To inspire present and prospective customers to save (more) with Ahlibank as a modest saving of just QR 500 could become a life changing moment, as they stand a chance to become a millionaire as well as win other significant cash prizes.</span></p>
+					<p><b>Key Role:</b>  <span class="dim-text">Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels; developed the literature for all the communication collaterals and played a proactive role in identifying the right media mix.</span></p>
+				</div>
+				<div class="tab-pane" id="3a" ng-class="{'active': projects.a3}">
+					<!--<h4><b>REBRANDING OF QATAR INTERNATIONAL ISLAMIC BANK AS INTERNATIONAL ISLAMIC </b></h4>-->
+					<p></p>
+					<p><b>Key Objective:</b> <span class="dim-text">To re-position International Islamic as a thoroughbred customer-centric bank with an international reach; reinforce customer confidence in the Islamic banking offerings of the bank; and develop the entire spectrum of visual and verbal identity elements that reflect the new positioning.</span></p>
+					<p><b>Key Role:</b>  <span class="dim-text">Conceived the core brand philosophy – ‘joining hands with you’ and developed the key brand attributes; led the creative team that developed the brandmark and the brand identity manual that covered the entire spectrum of brand identity elements from brandmark guidelines, colour palettes and typography to ATL and BTL templates, ATM and branch branding, vehicle livery and internal and external communication materials; developed all the required brand literature; conceived and implemented the launch of the new brand identity.</span></p>
+				</div>
+				<div class="tab-pane" id="4a" ng-class="{'active': projects.a4}">
+					<!--h4><b>QAHS MENTAL HEALTH AWARENESS CAMPAIGN</b></h4>-->
+					<p>A CSR initiative of Qatar Academic Health System (QAHS) in association with Hamad Medical Corporation (HMC)</p>
+					<p><b>Key Objective:</b> <span class="dim-text">Address the stereotypes, taboos and myths attached with mental health by conducting a competition on ‘raising awareness on mental health issues’ among the university students of Qatar. Each college had to present a communication strategy on a mental health topic they chose. The top three presentations were then chosen to be part of a public exhibition and the students were publicly felicitated too.</span></p>
+					<p><b>Key Role:</b>  <span class="dim-text">Was part of the two-member agency team that visited the students at their campuses, discussed their ideas with them, brainstormed the communication plans, assisted them in formulating the right communication strategies and then developed their final presentations.</span></p>
+				</div>
+				<div class="tab-pane" id="5a" ng-class="{'active': projects.a5}">
+					<!--<h4><b>AL FIKRA</b></h4>-->
+					<p>Qatar National Business Plan Competition - Organised by QDB</p>
+					<p><b>Key Objective:</b> <span class="dim-text">To provide aspiring entrepreneurs with a platform to showcase their ideas and an eco system to transform their ideas into business plans. The program included workshops and mentoring sessions over a 3-month period, at the end of which a jury evaluated the business plans and the best three plans were awarded with QDB-sponsored financial and non-financial incentives to make their business plans a reality.</span></p>
+					<p><b>Key Role:</b> <span class="dim-text">Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels including branding the venue; developed the literature for all the communication collaterals and played a proactive role in identifying the right media mix.</span></p>
+				</div>
+				<div class="tab-pane" id="6a" ng-class="{'active': projects.a6}">
+					<!--<h4><b>LAUNCH OF QIB MOBILE BANKING APP</b></h4>-->
+					<p></p>
+					<p><b>Key Objective:</b> <span class="dim-text">Communicate the fact that QIB is launching its new mobile banking app which will enable customers to conduct all their banking transactions from their smart phone any time from anywhere. Most of the banks had already launched their mobile app, hence the creatives had to cut through all the clutter by being engaging, innovative and relevant.</span></p>
+					<p><b>Key Role:</b> <span class="dim-text">Conceived the core creative concept; led the creative team that implemented the creative concept across a wide range of communication channels including press ads, magazine ads, digital/social media (home page banners, FB, Twitter, Instagram), posters and billboards (streets, branches, malls); developed the literature for all the communication collaterals,</span></p>
+				</div>
+			</div>
 		</div>
 
 		<div id="projectsMainMobile" class="col-sm-12 col-xs-12 hidden-md hidden-lg grad2">
@@ -197,3 +203,4 @@
     </div>
 
   </div>
+

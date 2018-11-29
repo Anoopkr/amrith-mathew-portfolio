@@ -1,5 +1,32 @@
 <div id="exTab1" class="container">
-   <div class="col-sm-4 grad1 hidden-xs hidden-sm">
+
+   <div id="roles-main" class="col-sm-4 grad1 hidden-xs hidden-sm">
+        <ul role="roles" class="nav nav-pills">
+           <li class="active">
+              <a href="" ng-click="scrollTo('a1')" data-toggle="tab" class="active-color">
+                 <h3 style="margin-top: 11%;"><b>CREATIVE</b></h3>
+              </a>
+           </li>
+           <li>
+              <a href="" ng-click="scrollTo('a2')" data-toggle="tab" class="active-color">
+                 <h3><b>COPYWRITING</b></h3>
+              </a>
+           </li>
+           <li>
+              <a href="" ng-click="scrollTo('a3')" data-toggle="tab" class="active-color">
+                 <h3><b>ACCOUNT MANAGEMENT</b></h3>
+              </a>
+           </li>
+           <li>
+              <a href="" ng-click="scrollTo('a4')" data-toggle="tab" class="active-color">
+                 <h3><b>MANAGEMENT</b></h3>
+              </a>
+           </li>
+        </ul>
+     </div>
+
+
+   <div  id="projectsMain"  class="col-sm-8 grad2 hidden-xs hidden-sm" onscroll="myFunction()">
       <div id="rolesDesc" class="tab-content clearfix">
          <div class="tab-pane" id="1a" ng-class="{'active': projects.a1}">
                <P> Brainstorm the client/brand requirements with the account management team or the
@@ -58,34 +85,7 @@ image libraries etc.</P>
       </div>
    </div>
 
-     <div id="roles-main" class="col-sm-8 grad2 hidden-xs hidden-sm">
-        <ul  class="nav nav-pills">
-           <li>
-              <a>
-              </a>
-           </li>
-           <li class="active">
-              <a href="" ng-click="scrollTo('a1')" data-toggle="tab" class="active-color">
-                 <h4><b>CREATIVE</b></h4>
-              </a>
-           </li>
-           <li>
-              <a href="" ng-click="scrollTo('a2')" data-toggle="tab" class="active-color">
-                 <h4><b>COPYWRITING</b></h4>
-              </a>
-           </li>
-           <li>
-              <a href="" ng-click="scrollTo('a3')" data-toggle="tab" class="active-color">
-                 <h4><b>ACCOUNT MANAGEMENT</b></h4>
-              </a>
-           </li>
-           <li>
-              <a href="" ng-click="scrollTo('a4')" data-toggle="tab" class="active-color">
-                 <h4><b>MANAGEMENT</b></h4>
-              </a>
-           </li>
-        </ul>
-     </div>
+    
 
 
 
